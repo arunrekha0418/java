@@ -1,5 +1,3 @@
-/*Positive or Negative*/
-
 /* package whatever; // don't place package name! */
 
 import java.util.*;
@@ -10,20 +8,23 @@ import java.io.*;
 class Ideone
 {
 	public static void main(String[]args)
-	{              
-		
-                        int num=100;
+	{      
+		int num;
+		Scanner scan = new Scanner(System.in);
+      
+        num = scan.nextInt();
+                       
                         if(num>0)
                         {
 		System.out.println("Positive");
                         }
-		else if(num<0)
+		else if(num==0)
 		{
-		System.out.println("Negative");
+		System.out.println("Zero");
 		}
 		else
 		{
-			System.out.println("zero");
+			System.out.println("Negative");
 		
 	}}
 }

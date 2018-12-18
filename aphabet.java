@@ -7,7 +7,7 @@ public static void main(String[] args)
 {
 char ch;
 Scanner scan=new Scanner(System.in);
-ch=scan.next();
+ch=scan.next(0);
 if(ch>='a' && ch<='z')
 {
 System.out.println("Alphabet");

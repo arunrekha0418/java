@@ -12,6 +12,6 @@ b=sc.nextInt();
 for(i=a+1;i<b;i++)
 if(i%2==1)
 {
-Ssytem.out.println(i);
+System.out.println(i);
 }}
 }

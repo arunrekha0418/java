@@ -11,7 +11,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		for(int i=0;i<=n;i++){
-			System.out.println(a);
+			System.out.println(a+" ");
 			c=a+b;
 			a=b;
 			b=c;

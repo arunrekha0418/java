@@ -10,5 +10,6 @@ class Ideone
 		int n;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
+		if(n>0){
 			System.out.println(n+1);
-}}
+}}}

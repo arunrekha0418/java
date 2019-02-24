@@ -10,7 +10,7 @@ class Ideone
 		int num;
 		Scanner sc=new Scanner(System.in);
 		num=sc.nextInt();
-	String str[]={" ","one","two","three","four","five","six","seven","eight","nine","ten"};
+	String str[]={" ","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"};
 	if((num>0)&&(num<=10))
 		System.out.println(str[num]);}
 }

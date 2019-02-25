@@ -19,8 +19,8 @@ class Ideone
 				al++;
 			}}
 		if(al>=1&&num>=1)
-			System.out.println("yes");
+			System.out.println("Yes");
 			else
-			System.out.println("no");
+			System.out.println("No");
 	    }
 }
